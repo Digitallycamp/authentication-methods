@@ -49,67 +49,6 @@ const authController = {
     });
   },
 
-  googleAuth: async (req, res) => {
-    console.log("Received Google auth request with body:", req.body);
-    const { token } = req.body;
-    console.log("Received Google token:", token);
-    if (!token) {
-      return res.status(400).json({ message: "Google token is required" });
-    }
-    try {
-      const response = await fetch(
-        `https://www.googleapis.com/oauth2/v3/userinfo`,
-        {
-          headers: { Authorization: `Bearer ${token}` },
-        },
-      );
-
-      if (!response.ok) throw new Error("Failed to fetch Google user info");
-
-      const googleUser = await response.json();
-      let user = await User.findOne({ email: googleUser.email });
-      if (!user) {
-        user = new User({
-          username: googleUser.name,
-          email: googleUser.email,
-          password: googleUser.sub + "snjksnsj", // Generate a random password or use a fixed string since it's not used for Google-authenticated users
-        });
-        await user.save();
-      }
-
-      req.session.regenerate((err) => {
-        if (err) {
-          console.error("Session regeneration error:", err);
-          return res.status(500).json({ message: "Internal server error" });
-        }
-
-        req.session.user = {
-          id: user._id,
-          username: user.username,
-          email: user.email,
-        };
-
-        // FIX: Force the session to save to the store BEFORE responding to the client
-        req.session.save((saveErr) => {
-          if (saveErr) {
-            console.error("Session save error:", saveErr);
-            return res.status(500).json({ message: "Internal server error" });
-          }
-
-          // Now the cookie is safe and the session data is written!
-          return res.status(200).json({ message: "Login successful" });
-        });
-      });
-    } catch (error) {
-      console.error("Error during Google authentication:", error);
-      return res.status(500).json({ message: "Internal server error" });
-    }
-  },
-
-  authenticatedUser: (req, res) => {
-    return res.status(200).json(req.session.user);
-  },
-
   logout: (req, res) => {
     req.session.destroy((err) => {
       if (err) {
