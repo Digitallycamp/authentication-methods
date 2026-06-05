@@ -1,11 +1,12 @@
 require("dotenv").config();
 
+const cookieParser = require("cookie-parser");
 const express = require("express");
 const cors = require("cors");
 
 const app = require("./app.js");
-const authRouter = require("./module/auth/auth.routes.js");
-const profileRouter = require("./module/profle/profile.routes.js");
+const authRouter = require("./modules/auth/auth.routes.js");
+const profileRouter = require("./modules/profle/profile.routes.js");
 
 const connectDb = require("./common/db/connetDb.js");
 
@@ -20,6 +21,7 @@ app.use(
 );
 
 app.use(express.json());
+app.use(cookieParser());
 
 //routes heer
 app.use("/api/v1/auth", authRouter);

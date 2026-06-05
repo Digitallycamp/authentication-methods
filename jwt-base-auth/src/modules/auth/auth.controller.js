@@ -2,6 +2,9 @@ const User = require("../user/user.model.js");
 const emailService = require("../email/services/email.service.js");
 const crypto = require("crypto");
 const jwt = require("jsonwebtoken");
+const generateAccessToken = require("./utils/generateAccessToken.js");
+const generateRefreshToken = require("./utils/generateRefreshToken.js");
+const { StatusCodes } = require("http-status-codes");
 
 const authController = {
   register: async (req, res) => {
@@ -43,16 +46,71 @@ const authController = {
       email: user.email,
       role: user.role,
     };
-    const token = jwt.sign(payload, process.env.JWT_SECRET, {
-      expiresIn: 5 * 60 * 1000, // 5 minutes
+
+    const accessToken = generateAccessToken(payload);
+    const refreshToken = generateRefreshToken(payload);
+
+    user.refreshToken = refreshToken;
+    await user.save();
+
+    res.cookie("jw-base-auth", refreshToken, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production" ? true : false, // Set to true if using HTTPS in production
+      maxAge: 1000 * 24 * 60 * 60 * 7, // Session expires after 7 days
+      sameSite: "lax", // Required for cross-site cookies
+      path: "/", // Cookie is valid for the entire site
     });
-    return res.status(200).json({ message: "Login successful", token });
+    return res.status(200).json({
+      message: "Login successful",
+      accessToken,
+    });
   },
 
+  refreshToken: async (req, res) => {
+    const refreshToken = req.cookies["jw-base-auth"];
+    console.log("Received refresh token:", refreshToken);
+    if (!refreshToken) {
+      return res
+        .status(StatusCodes.UNAUTHORIZED)
+        .json({ message: "Access Denied, No Refresh Token " });
+    }
+
+    try {
+      const user = await User.findOne({ refreshToken });
+      if (!user) {
+        return res
+          .status(StatusCodes.FORBIDDEN)
+          .json({ message: "Token is invalid or Revoked" });
+      }
+
+      // continue from here in next class: I see an issue of Order here. We need to verify the token first before checking the database, otherwise we are doing an unnecessary database query for an invalid token. So we should verify the token first, then check if the user exists in the database and if the refresh token matches the one stored for that user. If everything is valid, we can generate a new access token and return it to the client.
+      const decoded = jwt.verify(
+        refreshToken,
+        process.env.JWT_REFRESH_TOKEN_SECRET,
+      );
+      console.log("Decoded refresh token:", decoded);
+      if (decoded.id !== user._id.toString()) {
+        return res
+          .status(StatusCodes.FORBIDDEN)
+          .json({ message: "Token is invalid or Revoked" });
+      }
+
+      const payload = {
+        id: user._id,
+        username: user.username,
+        email: user.email,
+        role: user.role,
+      };
+      const accessToken = generateAccessToken(payload);
+      return res.json({ accessToken });
+    } catch (err) {
+      console.error("Error during token refresh:", err);
+    }
+  },
   googleAuth: async (req, res) => {
     console.log("Received Google auth request with body:", req.body);
     const { token } = req.body;
-    console.log("Received Google token:", token);
+    console.log("Received Google token:", cookietoken);
     if (!token) {
       return res.status(400).json({ message: "Google token is required" });
     }
@@ -108,7 +166,7 @@ const authController = {
   },
 
   authenticatedUser: (req, res) => {
-    return res.status(200).json(req.session.user);
+    return res.status(200).json(req.user);
   },
 
   logout: (req, res) => {
