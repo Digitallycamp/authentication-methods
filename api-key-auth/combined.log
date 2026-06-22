@@ -1,0 +1,275 @@
+{"level":"info","message":"Starting server..","service":"user-service"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service"}
+{"level":"info","message":"Server started..","service":"user-service"}
+{"level":"info","message":"Starting server..","service":"user-service"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service"}
+{"level":"info","message":"Server started..","service":"user-service"}
+{"level":"info","message":"Starting server..","service":"user-service"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service"}
+{"level":"info","message":"Server started..","service":"user-service"}
+{"level":"info","message":"Starting server..","service":"user-service"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service"}
+{"level":"info","message":"Server started..","service":"user-service"}
+{"level":"info","message":"Starting server..","service":"user-service"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service"}
+{"level":"info","message":"Server started..","service":"user-service"}
+{"level":"info","message":"Starting server..","service":"user-service"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service"}
+{"level":"info","message":"Server started..","service":"user-service"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Server started.."}
+{"level":"info","message":"Started to fetch presidents data for "}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Server started.."}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Server started.."}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Server started.."}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Server started.."}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Server started.."}
+{"level":"info","message":"FECTHING PRESIDNETS"}
+{"level":"info","message":" PRESIDNETS fetched"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Server started.."}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Server started.."}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Server started.."}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Server started.."}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Server started.."}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Server started.."}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Server started.."}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Server started.."}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"FECTHING PRESIDNETS"}
+{"level":"error","message":" failed to fetch data"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"FECTHING PRESIDNETS"}
+{"level":"info","message":" PRESIDNETS fetched"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"FECTHING PRESIDNETS"}
+{"level":"info","message":" PRESIDNETS fetched"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"FECTHING PRESIDNETS"}
+{"level":"info","message":" PRESIDNETS fetched"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"FECTHING PRESIDNETS"}
+{"level":"info","message":" PRESIDNETS fetched"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"FECTHING PRESIDNETS"}
+{"level":"info","message":" PRESIDNETS fetched"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"Starting server.."}
+{"level":"info","message":"Connected to MongoDB"}
