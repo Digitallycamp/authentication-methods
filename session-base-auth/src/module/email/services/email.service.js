@@ -17,7 +17,7 @@ const emailService = {
       from: sender,
       to,
       subject: "Password Reset",
-      text: `Click the link to reset your password: http://localhost:5173/reset-password/${token}`,
+      text: `Click the link to reset your password: http://localhost:5173/auth/reset-password/${token}`,
     });
   },
 };

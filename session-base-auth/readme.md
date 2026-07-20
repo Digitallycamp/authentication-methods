@@ -1,3 +1,4 @@
+```batch
 session-base-auth/
 ├── src/
 │ ├── app.js # Express application setup & middleware pipelines
@@ -38,6 +39,7 @@ session-base-auth/
 ├── .gitignore
 ├── package.json
 └── README.md
+```
 
 ## 📄 User Module Component Documentation
 

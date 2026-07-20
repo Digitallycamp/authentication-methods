@@ -8,6 +8,7 @@ const userSchema = new mongoose.Schema({
   provider: { type: String, default: "local" },
   resetPasswordToken: { type: String, default: null },
   resetPasswordExpires: { type: Date, default: null },
+  // role: { type: String, enum: ["user", "admin"], default: "user" },
 });
 
 userSchema.pre("save", async function () {

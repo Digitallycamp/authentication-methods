@@ -133,6 +133,7 @@ const authController = {
   forgotPassword: async (req, res) => {
     // Implementation for forgot password
     const { email } = req.body;
+    console.log(email);
     if (!email) {
       return res.status(400).json({ message: "Email is required" });
     }
